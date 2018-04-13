@@ -14,7 +14,8 @@ sudo /etc/init.d/ntp stop && sudo cp /usr/share/zoneinfo/Asia/Taipei /etc/localt
 
 # install easy_install、pip、requests、lxml
 sudo easy_install pip
-sudo pip install --upgrade pip requests lxml
+sudo pip install --upgrade pip
+sudo pip install requests lxml
 
 
 # set default shell and link config files
