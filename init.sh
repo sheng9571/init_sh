@@ -18,7 +18,7 @@ sudo pip install --upgrade pip requests lxml
 
 
 # set default shell and link config files
-chsh /usr/bin/zsh
+chsh -s $(which zsh)
 cd ~
 git clone --recursive https://github.com/sheng9571/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
