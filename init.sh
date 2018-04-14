@@ -12,6 +12,11 @@ export TZ='Asia/Taipei';
 sudo /etc/init.d/ntp stop && sudo cp /usr/share/zoneinfo/Asia/Taipei /etc/localtime && sudo ntpdate tw.pool.ntp.org && sudo /etc/init.d/ntp start
 
 
+# Update python to latest version
+# sudo add-apt-repository ppa:jonathonf/python-2.7
+# sudo apt-get update && sudo apt-get install -y python2.7
+
+
 # install easy_install、pip、requests、lxml
 sudo easy_install pip
 sudo pip install --upgrade pip
