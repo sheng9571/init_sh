@@ -16,6 +16,11 @@ sudo /etc/init.d/ntp stop && sudo cp /usr/share/zoneinfo/Asia/Taipei /etc/localt
 # sudo add-apt-repository ppa:jonathonf/python-2.7
 # sudo apt-get update && sudo apt-get install -y python2.7
 
+# Update python2 to python 2.7.12
+# sudo apt-add-repository ppa:fkrull/deadsnakes-python2.7
+# sudo apt-get update
+# sudo apt-get install python2.7 python2.7-dev
+
 
 # install easy_install、pip、requests、lxml
 sudo easy_install pip
