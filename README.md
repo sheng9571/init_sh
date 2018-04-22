@@ -1,6 +1,6 @@
-# init_sh
-This is a project that about some initial settings based on ubuntu
+# Linux tool kit
+This is a project that about some tool kits based on ubuntu
 ```
 Install
-git clone --recursive https://github.com/sheng9571/init_sh
+git clone --recursive https://github.com/sheng9571/linux_tool_kit.git
 ```
