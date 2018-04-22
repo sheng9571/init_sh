@@ -1,6 +1,7 @@
 # DES Encryption model
-This is a project that about some tool kits based on ubuntu
+We can use des.py to learn des encryption step by step.
 ```
-Install
-git clone --recursive https://github.com/sheng9571/linux_tool_kit.git
+Tutorial
+from des import des
+des() = des(key, message, iv, mode)
 ```
