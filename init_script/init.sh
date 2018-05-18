@@ -4,7 +4,7 @@ sudo sed -i '1, $s/tw.archive.ubuntu.com/free.nchc.org.tw/g' /etc/apt/sources.li
 
 # install requirement packages
 sudo apt-get update
-sudo apt-get install -y ntp ntpdate python-setuptools python-dev build-essential vim tmux zsh git openssh-server libxml2-dev libxslt-dev
+sudo apt-get install -y ntp ntpdate python-setuptools python-dev build-essential vim tmux zsh git openssh-server libxml2-dev libxslt-dev gcc-multilib g++-4.8-multilib
 
 
 # time correction
